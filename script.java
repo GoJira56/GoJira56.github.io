@@ -1,1 +1,1 @@
-let A = document.getElementbyId ("")
+let A = document.getElementbyId ("meta")
