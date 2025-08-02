@@ -7,3 +7,5 @@ let "c5" = document.getElementbyId ("c5")
 let "c6" = document.getElementbyId ("c6")
 
 meta.addEventlistener("click", = () {meta.innerHTML ="Random"      })
+
+c1.addEventlistener("click" , = (
