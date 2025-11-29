@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Click Counter</title>
+</head>
+<body>
+
+<h2>จำนวนครั้งที่มึงคลิก: <span id="count">0</span></h2>
+
+<button id="btn">กดมาดิ</button>
+
+<script>
+    let count = 0;
+
+    document.getElementById("btn").addEventListener("click", () => {
+        count++;
+        document.getElementById("count").textContent = count;
+    });
+</script>
+
+</body>
+</html>
