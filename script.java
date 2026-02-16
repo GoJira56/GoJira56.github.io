@@ -1,11 +1,19 @@
-let "A" = document.getElementbyId ("meta")
-let "c1" = document.getElementbyId ("c1")
-let "c2" = document.getElementbyId ("c2")
-let "c3" = document.getElementbyId ("c3")
-let "c4" = document.getElementbyId ("c4")
-let "c5" = document.getElementbyId ("c5")
-let "c6" = document.getElementbyId ("c6")
+.pocket {
+  border-left: 140px solid #5a3a2;
+  border-right: 140px soild #f5a3a2;
+  border-top: 90px soild transparent;
+  border-bottom-lrft-radius: 6px;
+  border-bottom-right-randius: 6px;
+}
 
-meta.addEventlistener("click", = () {meta.innerHTML ="Random"      })
-
-c1.addEventlistener("click" , = (
+.letter {
+  position: relative
+  blackground-color: #fff;
+  width: 90%;
+  margin-left: auto;
+  magin-right: auto;
+  height: 90%;
+  top: 5%;
+  border-radius: 6px;
+  font-family: "Dancing Script", cursive;
+}
