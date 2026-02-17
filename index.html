@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ¿? </title>
-    <link rel="stylesheet" href="style.css"
-
+<meta charset="UTF-8">
+<title>Calculator</title>
+</head>
 <body>
-<head>
+
+<input type="number" id="a" placeholder="ตัวเลขที่ 1">
+<input type="number" id="b" placeholder="ตัวเลขที่ 2">
+
+<button onclick="calc('+')">+</button>
+<button onclick="calc('-')">-</button>
+<button onclick="calc('*')">*</button>
+<button onclick="calc('/')">/</button>
+
+<h3 id="result">ผลลัพธ์: </h3>
+
+<script>
+function calc(op){
+  let a = parseFloat(document.getElementById("a").value);
+  let b = parseFloat(document.getElementById("b").value);
+  let r;
+
+  if(op==='+') r = a + b;
+  if(op==='-') r = a - b;
+  if(op==='*') r = a * b;
+  if(op==='/') r = b!==0 ? a / b : "หาร 0 ไม่ได้";
+
+  document.getElementById("result").innerText = "ผลลัพธ์: " + r;
+}
+</script>
+
+</body>
+</html>
