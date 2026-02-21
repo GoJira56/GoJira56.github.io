@@ -1,8 +1,6 @@
-# โปรแกรมคำนวณพื้นฐาน
-# เขียนโดย: ชื่อของคุณ
 
 def main():
-    print("เริ่มโปรแกรม")
+    print("start program")
 
 if __name__ == "__main__":
     main()
